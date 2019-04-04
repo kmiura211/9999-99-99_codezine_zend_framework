@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Hello, World!</title>
+</head>
+<body>
+こんにちは！<br />
+お名前をどうぞ。<br />
+
+<form action="Index/hello" method="post">
+<?php echo $this->formText('yourname','your name')?>
+<?php echo $this->formSubmit('','Go')?>
+</form>
+
+</body>
+</html>
